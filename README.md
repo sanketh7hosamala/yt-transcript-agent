@@ -10,7 +10,7 @@ Resources:
 ## Requirements
 
 - Python 3.13+
-- OpenAI API key
+- Anthropic API key
 - `uv` package manager (recommended)
 
 ## How to run this example
@@ -37,13 +37,13 @@ Resources:
 
 4. **Run the agent**
    ```bash
-   uv run main.py
+   uv run main_002_cas.py
    ```
 
 5. **Interact with agent**
    
    Once running, you can ask the agent to analyze YouTube videos. Try prompts like:
-   - "Summarize this: https://youtu.be/N3vHJcHBS-w?si=aw8PV0acYHJGPy7R"
+   - "Summarize this: https://www.youtube.com/watch?v=PF7QNbgoidU"
    - "Generate chapter timestamps with links"
    - "Write me a LinkedIn post about the video"
 
@@ -66,11 +66,11 @@ Resources:
    pip install -e .
    ```
 
-4. **Set up your OpenAI API key**
+4. **Set up your Anthropic API key**
    
    Create a `.env` file in the root directory:
    ```bash
-   echo "OPENAI_API_KEY=your_api_key_here" > .env
+   echo "Anthropic_API_KEY=your_api_key_here" > .env
    ```
 
 5. **Run the agent**
